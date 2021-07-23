@@ -11,3 +11,5 @@ while [ $reponse = "Boucle" ]; do
 echo "JE BOUCLE"
 done
 fi
+
+touch test.sh
