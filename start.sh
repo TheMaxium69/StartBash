@@ -12,4 +12,10 @@ echo "JE BOUCLE"
 done
 fi
 
-touch test.sh
+if [ $reponse = "File" ]; then
+sh test.sh
+fi
+
+if [ $reponse = "Console" ]; then
+sh test2.sh
+fi
